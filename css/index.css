@@ -120,7 +120,7 @@ header div div {
 
 button{
   margin:20px 0;
-
+font-size: 25px;
 }
 
 h1 {
@@ -303,12 +303,16 @@ li{
 @media(max-width:500px){
   nav{
     flex-direction: column;
-    width:99%;
     /* flex-basis:100%; */
   }
   nav a{
     margin:auto;
-font-size:30px;
+    font-size:30px;
+    border: 1px solid grey;
+    width:100%;
+    text-align: center;
+    
+  
   }
 .top-section, .bottom-section{
   flex-direction: column;;
