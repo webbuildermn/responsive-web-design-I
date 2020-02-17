@@ -120,7 +120,8 @@ header div div {
 
 button{
   margin:20px 0;
-font-size: 25px;
+  padding: 0 30px;
+  font-size: 25px;
 }
 
 h1 {
